@@ -1,5 +1,4 @@
 //Presenter : Aviv Dahan
-//
 function isPrime(num) {
   //Function to check prime numbers
   if (num <= 1) return false; // 0 and 1 are not prime numbers

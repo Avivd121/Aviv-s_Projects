@@ -1,5 +1,7 @@
+//Presenter : Aviv Dahan
+//
 function isPrime(num) {
-  // check prime numbers
+  //Function to check prime numbers
   if (num <= 1) return false; // 0 and 1 are not prime numbers
   for (let i = 2; i <= Math.sqrt(num); i++) {
     if (num % i === 0) return false;
@@ -7,6 +9,7 @@ function isPrime(num) {
   return true;
 }
 
+// Function to print all prime numbers less than the given limit
 function printPrimes(limit) {
   for (let i = 2; i < limit; i++) {
     if (isPrime(i)) {
